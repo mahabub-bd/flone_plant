@@ -10737,7 +10737,7 @@ body {
 }
 
 .nav-link i {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
 }
 
 .nav-link a {
@@ -10754,6 +10754,28 @@ body {
 hr {
   margin: 0;
   color: #555252;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-item {
+  display: none;
+  position: absolute;
+  min-width: 100px;
+  height: 130px;
+  padding-right: 2rem;
+  padding-left: 1rem;
+  z-index: 100;
+  background: #f6f6f6;
+  box-shadow: 0 1px 7px -2px rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+}
+
+.dropdown:hover .dropdown-item {
+  display: block;
+  background: #f6f6f6;
 }
 
 /*# sourceMappingURL=main.css.map */
