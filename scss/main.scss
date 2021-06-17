@@ -10,79 +10,11 @@ $font-family-sans-serif: "Poppins", sans-serif;
 
 body {
   background-color: #f6f6f6;
-  width: 100vw;
+  max-width: 1920px;
   min-height: 100vh;
 }
 .container {
   max-width: 1200px;
 }
-.nav-link i {
-  font-size: 1.5rem;
-  color: #555252;
-}
-.nav-link {
-  font-size: 0.8rem;
-  color: #555252 !important;
-  &:hover {
-    color: #a749ff !important ;
-  }
-}
-.li-bar {
-  width: 1px;
-  background-color: #c5c4c4;
-  height: 1rem;
-}
-hr {
-  margin: 0;
-  color: #555252;
-}
-
-.dropdown {
-  position: relative;
-  &:hover &-item {
-    display: block;
-    background: #f6f6f6;
-  }
-  &-item {
-    display: none;
-    position: absolute;
-    min-width: 100px;
-    height: 130px;
-    padding-right: 2rem;
-    padding-left: 1rem;
-    z-index: 100;
-    background: #f6f6f6;
-    box-shadow: 0 1px 7px -2px rgb(0 0 0/30%);
-    border-radius: 4px;
-  }
-}
-
-.mega-menu {
-  position: relative;
-
-  &:hover &-item {
-    display: block;
-    background: #f6f6f6;
-  }
-  &-item {
-    display: none;
-    margin: 0 -20px;
-    position: absolute;
-    min-width: 610px;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    padding-top: 1rem;
-    padding-bottom: 2rem;
-    z-index: 100;
-    background: #f6f6f6;
-    box-shadow: 0 1px 7px -2px rgb(0 0 0/30%);
-    border-radius: 4px;
-  }
-  li {
-    &:hover {list-style:disc;
-      color: #a749ff;
-      
-      margin-left: 0.25rem;
-    }
-  }
-}
+@import "nav";
+@import "banner";

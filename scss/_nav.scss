@@ -1,0 +1,102 @@
+.nav-link i {
+  font-size: 1.5rem;
+  color: #555252;
+}
+.nav-link {
+  font-size: 0.85rem;
+  color: #555252 !important;
+  &:hover {
+    color: #a749ff !important ;
+  }
+}
+.li-bar {
+  width: 1px;
+  background-color: #c5c4c4;
+  height: 1rem;
+}
+hr {
+  margin: 10px 0;
+  color: #555252;
+}
+
+// drop down
+
+@mixin dropdown($width, $height) {
+  display: none;
+  position: absolute;
+  width: $width;
+  height: $height;
+
+  z-index: 100;
+  background: #f6f6f6;
+  box-shadow: 0 1px 7px -2px rgb(0 0 0/30%);
+  border-radius: 4px;
+}
+
+.dropdown {
+  position: relative;
+  &:hover &-item {
+    display: block;
+    background: #f6f6f6;
+  }
+  &-item {
+    @include dropdown(100px, 120px);
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+
+  &:hover &-item-1 {
+    display: block;
+    background: #f6f6f6;
+  }
+  &-item-1 {
+    @include dropdown(170px, 350px);
+    padding: 1rem;
+  }
+}
+
+// Mega Menu
+
+@mixin megamenu($width, $height) {
+  display: none;
+  margin: 0 -20px;
+  position: absolute;
+  width: $width;
+  height: $height;
+  transition: all 0.5s ease 0s;
+  z-index: 100;
+  background: #f6f6f6;
+  box-shadow: 0 1px 7px -2px rgb(0 0 0/30%);
+  border-radius: 4px;
+}
+
+.mega-menu {
+  position: relative;
+
+  &:hover &-item {
+    display: block;
+    background: #f6f6f6;
+    transform: scaleY(1);
+  }
+  &-item {
+    @include megamenu(710px, 610px);
+    padding: 1rem;
+  }
+  &:hover &-item-1 {
+    display: block;
+    background: #f6f6f6;
+  }
+  &-item-1 {
+    @include megamenu(710px, 440px);
+    padding: 2rem;
+  }
+  li {
+    position: relative;
+    transition: all 0.5s ease 0s;
+    &:hover {
+      list-style: disc;
+      color: #a749ff;
+      transform: translateX(15px);
+    }
+  }
+}
