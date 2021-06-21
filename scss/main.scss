@@ -7,6 +7,8 @@ $font-family-sans-serif: "Poppins", sans-serif;
 
 // Bootstrap SASS
 @import "../node_modules/bootstrap/scss/bootstrap";
+@import "../node_modules/@fortawesome/fontawesome-free/css/all.min.css";
+
 
 body {
   background-color: #f6f6f6;
@@ -17,4 +19,5 @@ body {
   max-width: 1200px;
 }
 @import "nav";
+@import "slider";
 @import "banner";
