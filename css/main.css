@@ -10741,6 +10741,9 @@ body {
   max-width: 1200px;
 }
 
+/*********************
+BREAKPOINTS For Responsive
+*********************/
 .nav-link i {
   font-size: 1.5rem;
 }
@@ -10857,8 +10860,24 @@ hr {
 .carousel-item h1,
 .carousel-item .h1 {
   font-size: 4.5rem;
-  line-height: 97px;
+  line-height: 6rem;
   font-weight: 400;
+}
+@media (max-width: 992px) {
+  #main-carousel h1, #main-carousel .h1,
+.carousel-item h1,
+.carousel-item .h1 {
+    font-size: 3rem;
+    line-height: 4rem;
+  }
+}
+@media (max-width: 768px) {
+  #main-carousel h1, #main-carousel .h1,
+.carousel-item h1,
+.carousel-item .h1 {
+    font-size: 2.5rem;
+    line-height: 3rem;
+  }
 }
 #main-carousel h3, #main-carousel .h3,
 .carousel-item h3,
@@ -10878,6 +10897,14 @@ hr {
   background: #a749ff;
   color: #f6f6f6;
   border: no;
+}
+
+.carousel-control-prev {
+  left: -15rem;
+}
+
+.carousel-control-next {
+  right: -15rem;
 }
 
 .carousel-control-prev,
@@ -10923,6 +10950,11 @@ hr {
   color: green;
   font-size: 1.5rem;
   padding-top: 2rem;
+}
+@media (max-width: 768px) {
+  .banner .banner__content h3, .banner .banner__content .h3 {
+    font-size: 1rem;
+  }
 }
 .banner .banner__content h5, .banner .banner__content .h5 {
   font-size: 1rem;

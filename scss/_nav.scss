@@ -1,6 +1,5 @@
 .nav-link i {
   font-size: 1.5rem;
-  
 }
 .nav-link {
   font-size: 0.85rem;
@@ -38,12 +37,16 @@ hr {
   &:hover &-item {
     display: block;
     background: #f6f6f6;
+    
   }
+ 
   &-item {
     @include dropdown(100px, 120px);
     padding-right: 1rem;
     padding-left: 1rem;
   }
+
+
 
   &:hover &-item-1 {
     display: block;
