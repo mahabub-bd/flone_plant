@@ -1,4 +1,8 @@
-.nav-link i {
+.pe-7s-shuffle,
+.pe-7s-user-female,
+.pe-7s-search,
+.pe-7s-like,
+.pe-7s-shopbag {
   font-size: 1.5rem;
 }
 .nav-link {
@@ -37,16 +41,13 @@ hr {
   &:hover &-item {
     display: block;
     background: #f6f6f6;
-    
   }
- 
+
   &-item {
     @include dropdown(100px, 120px);
     padding-right: 1rem;
     padding-left: 1rem;
   }
-
-
 
   &:hover &-item-1 {
     display: block;
