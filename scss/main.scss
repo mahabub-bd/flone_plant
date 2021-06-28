@@ -16,6 +16,11 @@ $font-family-sans-serif: "Poppins", sans-serif;
 
 // Fontawesome SCSS
 @import "../node_modules/@fortawesome/fontawesome-free/scss/fontawesome";
+@import "../node_modules/@fortawesome/fontawesome-free/scss/brands";
+@import "../node_modules/@fortawesome/fontawesome-free/scss/regular";
+@import "../node_modules/@fortawesome/fontawesome-free/scss/solid";
+@import "../node_modules/@fortawesome/fontawesome-free/scss/v4-shims.scss";
+
 
 body {
   background-color: #f6f6f6;
