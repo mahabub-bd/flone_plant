@@ -1,18 +1,13 @@
 // Google Font Poppins
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;700;800&display=swap");
-
-
 // Google Font Cormorant Geramond
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&display=swap');
-
-// Override Bootstrap customize
-
+// Override Bootstrap customize with Poppins  Font
 $font-family-sans-serif: "Poppins", sans-serif;
 
 // Bootstrap SASS
 @import "../node_modules/bootstrap/scss/bootstrap";
-
 
 // Fontawesome SCSS
 @import "../node_modules/@fortawesome/fontawesome-free/scss/fontawesome";
@@ -20,7 +15,6 @@ $font-family-sans-serif: "Poppins", sans-serif;
 @import "../node_modules/@fortawesome/fontawesome-free/scss/regular";
 @import "../node_modules/@fortawesome/fontawesome-free/scss/solid";
 @import "../node_modules/@fortawesome/fontawesome-free/scss/v4-shims.scss";
-
 
 body {
   background-color: #f6f6f6;
