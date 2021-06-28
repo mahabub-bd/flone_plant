@@ -1,0 +1,58 @@
+.section__title {
+  h2 {
+    position: relative;
+    display: inline-block;
+    font: {
+      size: 1.8rem;
+      weight: 600;
+    }
+    margin: 0;
+    line-height: 2.25rem;
+    text-transform: uppercase;
+
+    &::before {
+      position: absolute;
+      content: "";
+      background: #000;
+      top: 17px;
+      width: 80px;
+      height: 2px;
+      left: -100px;
+    }
+    &::after {
+      position: absolute;
+      content: "";
+      background: #000;
+      top: 17px;
+      width: 80px;
+      height: 2px;
+      right: -100px;
+    }
+  }
+}
+// Product Tab List
+.product__tab__list {
+  justify-content: center;
+  padding-top: 1.8rem;
+  padding-bottom: 3.44rem;
+
+  .nav-link {
+    background-color: transparent !important;
+    margin: 0 0.4rem;
+    padding: 0.5rem 0.8rem;
+    display: block;
+    font-size: 1rem;
+  }
+
+  a h4 {
+    font-size: 1.12rem;
+    font-weight: 500;
+    margin: 0;
+    transition: all 0.3s ease 0s;
+    line-height: 1.5rem;
+
+    &:hover {
+      color: #000;
+    }
+  }
+}
