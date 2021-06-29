@@ -19795,13 +19795,16 @@ hr {
   border: 1px solid black;
   border-radius: 0;
   position: relative;
-  transition: all 0.3s ease-in-out 0s;
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: all 0.5s ease-out;
 }
 #main-carousel a:hover,
 .carousel-item a:hover {
   background: #a749ff;
   color: #f6f6f6;
   border: 1px solid transparent;
+  background-position: left bottom;
 }
 
 .carousel-control-prev {
@@ -20078,7 +20081,7 @@ hr {
 }
 .product__wrap .product__content .product__price .current__price {
   position: relative;
-  margin: 2px 20px;
+  margin: 2px 10px;
   line-height: 24px;
   font-family: "Poppins", sans-serif;
 }
@@ -20087,13 +20090,14 @@ hr {
   content: "";
   background: #000;
   top: 10px;
-  right: -16px;
+  right: -15px;
   width: 8px;
   height: 2px;
 }
 .product__wrap .product__content .product__price .old__price {
   text-decoration: line-through;
   color: #8e8e8e;
+  margin: 2px 10px;
 }
 .product__wrap:hover .hover__image {
   visibility: visible;
