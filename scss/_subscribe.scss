@@ -1,0 +1,49 @@
+.subscribe__wrapper {
+  font-family: Poppins, sans-serif;
+  margin: 50px auto;
+  h2 {
+    font-size: 2.8rem;
+    margin-right: 24px;
+    color: #010101;
+    font-weight: 400;
+    line-height: 36px;
+  }
+  p {
+      margin-top: 20px;
+    font-size: 1rem;
+    margin-right: 24px;
+    font-weight: 400;
+    line-height: 24px;
+  }
+
+  .subscribe__form {
+    position: relative;
+  }
+  .email {
+    width: 100%;
+    font-size: 0.875rem;
+    height: 45px;
+    padding: 2px 50px 2px 0;
+    background: transparent;
+    color: #333;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #e2e2e2;
+  }
+  .submit {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    display: inline-block;
+    .button {
+      font-size: 1.875rem;
+      height: 45px;
+      padding: 0;
+      transition: 0.3s;
+
+      color: #cacaca;
+      border: none;
+      background: none;
+    }
+  }
+}
