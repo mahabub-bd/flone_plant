@@ -20263,4 +20263,112 @@ hr {
   background: none;
 }
 
+.footer__area {
+  background: #f1f1f1;
+  margin: 50px auto 0;
+  padding-top: 100px;
+  padding-bottom: 50px;
+  position: relative;
+}
+.footer__area .copyright {
+  margin-bottom: 30px;
+}
+.footer__area .copyright .footer__logo img {
+  margin-top: 41px;
+  margin-bottom: 12px;
+}
+.footer__area .copyright p {
+  color: #313131;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.9px;
+}
+.footer__area .copyright p a {
+  text-decoration: none;
+  color: #313131;
+}
+.footer__area .scroll__top {
+  position: fixed;
+  z-index: 9999 !important;
+  right: 20px;
+  bottom: 60px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: none;
+  overflow: hidden;
+  background: #a749ff;
+  color: #fff;
+}
+.footer__area .scroll__top i {
+  font-size: 0.875rem;
+  line-height: 50px;
+  display: block;
+}
+.footer__area .scroll__top i:hover {
+  animation-name: scroll-bar;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  animation-iteration-count: 1;
+}
+@keyframes scroll-bar {
+  0% {
+    transform: translateY(7px);
+  }
+  50% {
+    transform: translateY(4px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+.footer__area .footer__widget {
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+.footer__area .footer__widget .footer__title h3, .footer__area .footer__widget .footer__title .h3 {
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #313131;
+  margin: 0 0 16px;
+  text-transform: uppercase;
+}
+.footer__area .footer__widget .subscribe__style p {
+  font-size: 0.812rem;
+  letter-spacing: 0.3px;
+  color: #5d5d5d;
+}
+.footer__area .footer__widget .subscribe__style .subscribe__form__footer .submit__footer {
+  display: flex;
+  justify-content: start;
+  margin-top: 10px;
+}
+.footer__area .footer__widget .subscribe__style .subscribe__form__footer .submit__footer .button__footer {
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #e2e2e2;
+  color: #5d5d5d;
+  text-align: left;
+  padding-left: 0;
+  padding-bottom: 4px;
+  font-size: 0.875rem;
+  line-height: 14px;
+}
+.footer__area .footer__widget .footer__list ul {
+  margin: 0;
+  padding: 0;
+  list-style: outside none;
+}
+.footer__area .footer__widget .footer__list ul li {
+  margin: 0 0 11px;
+}
+.footer__area .footer__widget .footer__list ul li a {
+  font-size: 0.875rem;
+  text-decoration: none;
+  letter-spacing: 0.3px;
+  color: #5d5d5d;
+}
+
 /*# sourceMappingURL=main.css.map */
