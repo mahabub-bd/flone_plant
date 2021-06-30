@@ -3,7 +3,8 @@
 .pe-7s-search,
 .pe-7s-like,
 .pe-7s-shopbag {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
+  line-height: 24px;
 }
 .nav-link {
   font-size: 0.85rem;
@@ -25,11 +26,15 @@ hr {
 // drop down
 
 @mixin dropdown($width, $height) {
-  display: none;
+  box-sizing: border-box;
+  visibility: hidden;
+  opacity: 0;
   position: absolute;
   width: $width;
   height: $height;
-
+  transform-origin: top;
+  transform: scaleY(0);
+  transition: all 0.5s ease 0s;
   z-index: 100;
   background: #f6f6f6;
   box-shadow: 0 1px 7px -2px rgb(0 0 0/30%);
@@ -38,23 +43,30 @@ hr {
 
 .dropdown {
   position: relative;
+  
   &:hover &-item {
-    display: block;
+    visibility: visible;
+    opacity: 1;
+    transform: scaleY(1);
     background: #f6f6f6;
   }
 
   &-item {
-    @include dropdown(100px, 120px);
+    @include dropdown(100px, 130px);
+
     padding-right: 1rem;
     padding-left: 1rem;
   }
 
   &:hover &-item-1 {
-    display: block;
+    visibility: visible;
+    opacity: 1;
+    transform: scaleY(1);
     background: #f6f6f6;
   }
   &-item-1 {
-    @include dropdown(170px, 350px);
+    @include dropdown(170px, 380px);
+    
     padding: 1rem;
   }
 }
@@ -62,12 +74,15 @@ hr {
 // Mega Menu
 
 @mixin megamenu($width, $height) {
-  display: none;
+  visibility: hidden;
+  opacity: 0;
   margin: 0 -20px;
   position: absolute;
   width: $width;
   height: $height;
-  transition: all 0.5s ease-in-out;
+  transform-origin: top;
+  transform: scaleY(0);
+  transition: all 0.5s ease 0s;
   z-index: 100;
   background: #f6f6f6;
   box-shadow: 0 1px 7px -2px rgb(0 0 0/30%);
@@ -78,7 +93,8 @@ hr {
   position: relative;
 
   &:hover &-item {
-    display: block;
+    visibility: visible;
+    opacity: 1;
     background: #f6f6f6;
     transform: scaleY(1);
   }
@@ -87,8 +103,10 @@ hr {
     padding: 1rem;
   }
   &:hover &-item-1 {
-    display: block;
+    visibility: visible;
+    opacity: 1;
     background: #f6f6f6;
+    transform: scaleY(1);
   }
   &-item-1 {
     @include megamenu(710px, 440px);
