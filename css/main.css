@@ -20570,5 +20570,12 @@ strong a {
 .shop__area .shop__bottom__area {
   margin-top: 35px;
 }
+.shop__area .pagination__style {
+  margin-top: 30px;
+}
+.shop__area .pagination__style ul {
+  margin: 0;
+  padding: 0;
+}
 
 /*# sourceMappingURL=main.css.map */
