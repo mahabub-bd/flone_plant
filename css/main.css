@@ -20576,6 +20576,38 @@ strong a {
 .shop__area .pagination__style ul {
   margin: 0;
   padding: 0;
+  list-style: none;
+}
+.shop__area .pagination__style ul li {
+  display: inline-block;
+  margin: 0 4px;
+  padding: 5px;
+}
+.shop__area .pagination__style ul li .active {
+  background-color: #a749ff;
+  color: #f6f6f6;
+}
+.shop__area .pagination__style ul li button {
+  font-size: 16px;
+  line-height: 43px;
+  display: inline-block;
+  width: 43px;
+  height: 43px;
+  padding: 0;
+  text-align: center;
+  color: #a749ff;
+  border: none;
+  border-radius: 100% !important;
+  background: none;
+  box-shadow: 0 0 12px 0.8px rgba(0, 0, 0, 0.1) !important;
+  transition: 0.5s;
+}
+.shop__area .pagination__style ul li button .page__link {
+  box-shadow: 0 0 12px 0.8px rgba(0, 0, 0, 0.1) !important;
+}
+.shop__area .pagination__style ul li button:hover {
+  background-color: #a749ff;
+  color: #f6f6f6;
 }
 
 /*# sourceMappingURL=main.css.map */
