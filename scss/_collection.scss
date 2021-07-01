@@ -1,0 +1,186 @@
+.breadcrumb__area {
+  padding: 35px 0;
+  margin-top: 20px;
+  background: $breadcrumb-bg;
+  span {
+    span {
+      display: inline-block;
+      font-size: 15px;
+      font-weight: 500;
+      text-transform: uppercase;
+      a {
+        font-weight: 500;
+        color: #5b5858;
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+// Shop area
+
+.shop__area {
+  padding-top: 75px;
+  padding-bottom: 100px;
+
+  .sidebar {
+    margin-right: 30px;
+
+    .sidebar__widget {
+      margin-top: 20px;
+      margin-bottom: 30px;
+      h4 {
+        .sidebar__title {
+          font-size: 1rem;
+          line-height: 24px;
+          font-weight: 500;
+          margin: 0;
+          color: #333;
+        }
+      }
+
+      .sidebar__search {
+        margin-top: 25px;
+        margin-bottom: 50px;
+        position: relative;
+        .sidebar__search__form {
+          position: relative;
+
+          input {
+            font-size: 0.875rem;
+            height: 43px;
+            padding: 2px 55px 2px 18px;
+            color: #000;
+            border: 1px solid #e6e6e6;
+            background: transparent none repeat scroll 0 0;
+          }
+          button {
+            font-size: 20px;
+            position: absolute;
+            top: 50%;
+            right: 0;
+            padding: 0 15px;
+            cursor: pointer;
+            transition: all 0.3s ease 0s;
+            transform: translateY(-50%);
+            color: #000;
+            border: #a1a5aa;
+            border-left: 1px solid #a1a5aa;
+            border-image: none;
+            background: transparent none repeat scroll 0 0;
+          }
+        }
+      }
+
+      .sidebar__widget__list {
+        margin-top: 30px;
+        ul {
+          list-style: none;
+          margin: 0;
+          padding: 0;
+          li {
+            padding: 0 0 15px;
+            .sidebar__widget__list__left {
+              button {
+                position: relative;
+                display: block;
+                width: 100%;
+                padding: 0 0 0 30px;
+                text-align: left;
+                text-transform: capitalize;
+                border: none;
+                background: none;
+                font-size: 0.875rem;
+                line-height: 24px;
+                span.checkmark {
+                  position: absolute;
+                  top: 4px;
+                  left: 0;
+                  width: 15px;
+                  height: 15px;
+                  border: 2px solid #888;
+                  border-radius: 3px;
+                  background-color: #fff;
+                }
+              }
+            }
+          }
+        }
+      }
+
+      .sidebar__widget__tag {
+        margin-top: 25px;
+        ul {
+          margin: 0;
+          padding: 0;
+          list-style: none;
+          li {
+            display: inline-block;
+            margin: 0 10px 15px 0;
+            button {
+              line-height: 1;
+              display: inline-block;
+              padding: 9px 17px 12px;
+              text-transform: capitalize;
+              color: #424242;
+              border: none;
+              border-radius: 50px;
+              background: none;
+              background-color: #f6f6f6;
+              font-size: 0.875rem;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .shop__top__bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25px;
+
+    .select__showing_wrap {
+      display: flex;
+      .shop__select {
+        margin-right: 50px;
+        select {
+          font-size: 14px;
+          min-width: 143px;
+          padding: 5px;
+          color: #606060;
+          border: 1px solid #e6e6e6;
+          option {
+            font-weight: normal;
+            display: block;
+            white-space: nowrap;
+            min-height: 1.2em;
+            padding: 0px 2px 1px;
+          }
+        }
+      }
+      p {
+        display: block;
+      }
+    }
+
+    .shop__tab {
+      button {
+        font-size: 1.125rem;
+        padding: 0;
+        color: #606060;
+        border: none;
+        background: none;
+        margin-left: 20px;
+        &:first-child {
+          margin-left: 0;
+        }
+      }
+    }
+  }
+  .shop__bottom__area {
+    margin-top: 35px;
+    
+  }
+}

@@ -17,7 +17,7 @@ $font-family-sans-serif: "Poppins", sans-serif;
 @import "../node_modules/@fortawesome/fontawesome-free/scss/v4-shims.scss";
 
 body {
-  background-color: #f6f6f6;
+  background-color: $white;
   max-width: 1920px;
   min-height: 100vh;
 }
@@ -32,3 +32,6 @@ body {
 @import "support";
 @import "subscribe";
 @import "footer";
+
+// Collection page SCSS File Import to main scss
+@import "collection";

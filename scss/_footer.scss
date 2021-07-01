@@ -38,7 +38,10 @@
     overflow: hidden;
     background: $theme-color;
     color: $white;
-
+    a {
+      text-decoration: none;
+      color: $white;
+    }
     i {
       font-size: 0.875rem;
       line-height: 50px;
@@ -58,7 +61,7 @@
             transform: translateY(4px);
           }
           100% {
-            transform: translateY(0);
+            transform: translateY(-4px);
           }
         }
       }
@@ -118,6 +121,9 @@
             text-decoration: none;
             letter-spacing: 0.3px;
             color: #5d5d5d;
+            &:hover {
+              color: $theme-color;
+            }
           }
         }
       }

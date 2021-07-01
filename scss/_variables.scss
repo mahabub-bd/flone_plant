@@ -5,6 +5,7 @@ $yellow: #ffa900;
 $gray: #5f5d5d;
 $theme-color: #a749ff;
 $footer-bg: #f1f1f1;
+$breadcrumb-bg: #f7f7f7;
 // Responsive
 @mixin breakpoint($point) {
   @if $point == xxl {
