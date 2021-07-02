@@ -107,7 +107,7 @@
           }
         }
       }
-
+      // Tag Widget start
       .sidebar__widget__tag {
         margin-top: 25px;
         ul {
@@ -120,7 +120,7 @@
             button {
               line-height: 1;
               display: inline-block;
-              padding: 9px 17px 12px;
+              padding: 9px 17px 9px;
               text-transform: capitalize;
               color: #424242;
               border: none;
@@ -128,10 +128,16 @@
               background: none;
               background-color: #f6f6f6;
               font-size: 0.875rem;
+              font-weight: 400;
+              &:hover {
+                background-color: $theme-color;
+                color: #f6f6f6;
+              }
             }
           }
         }
       }
+      // Tag Widget end
     }
   }
 
@@ -182,7 +188,7 @@
   .shop__bottom__area {
     margin-top: 35px;
   }
-
+  // Pagination
   .pagination__style {
     margin-top: 30px;
 
@@ -192,8 +198,8 @@
       list-style: none;
       li {
         display: inline-block;
-        margin: 0 4px;
-        padding: 5px;
+        margin: 0 3px;
+        
 
         .page__item {
         }
@@ -202,11 +208,11 @@
           color: #f6f6f6;
         }
         button {
-          font-size: 16px;
-          line-height: 43px;
+          font-size: 0.875rem;
+          line-height: 35px;
           display: inline-block;
-          width: 43px;
-          height: 43px;
+          width: 35px;
+          height: 35px;
           padding: 0;
           text-align: center;
           color: #a749ff;
@@ -214,7 +220,7 @@
           border-radius: 100% !important;
           background: none;
           box-shadow: 0 0 12px 0.8px rgba(0, 0, 0, 0.1) !important;
-          transition: 0.5s ;
+          transition: 0.5s;
 
           .page__link {
             box-shadow: 0 0 12px 0.8px rgba(0, 0, 0, 0.1) !important;
