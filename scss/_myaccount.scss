@@ -1,0 +1,138 @@
+.my__account__area {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  .accordion-item {
+    margin-bottom: 20px;
+    border: none;
+    box-shadow: 0 0 6px rgb(0 0 0 / 10%);
+
+    .accordion-button {
+      font-size: 15px;
+      font-weight: 500;
+      margin: 0;
+      text-transform: uppercase;
+      color: #242424;
+      outline: none;
+      background: #ffffff;
+
+      &:hover {
+        color: $theme-color;
+      }
+    }
+
+    .collapsed {
+      outline: none;
+    }
+  }
+  .account_wrapper {
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 1.25rem;
+
+    .account_info_body {
+      border-bottom: 1px solid #eaeaea;
+      margin-bottom: 28px;
+      padding-bottom: 30px;
+
+      h4 {
+        font-size: 0.875rem;
+        margin: 0;
+        text-transform: uppercase;
+      }
+      h5 {
+        font-size: 16px;
+        letter-spacing: 0.2px;
+        margin-top: 7px;
+      }
+    }
+
+    .billing__info {
+      margin-bottom: 20px;
+      width: 100%;
+
+      label {
+        color: #000;
+        font-size: 0.875rem;
+        text-transform: capitalize;
+        padding-bottom: 8px;
+      }
+      input {
+        background: transparent none repeat scroll 0 0;
+        border: 1px solid #ebebeb;
+        color: #000;
+        height: 40px;
+        width: 100%;
+        padding: 0 15px;
+      }
+    }
+
+    .billing__button {
+      display: flex;
+      justify-content: flex-end;
+      padding-top: 30px;
+
+      button {
+        background-color: #f2f2f2;
+        border: none;
+        color: #000;
+        display: inline-block;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 1;
+        padding: 14px 30px 14px;
+        text-transform: uppercase;
+        cursor: pointer;
+        transition: all 0.3s ease 0s;
+      }
+    }
+
+    // address__area
+
+    .entries__wrapper {
+      border: 1px solid #eaeaea;
+      .entries__info {
+        padding: 30px 20px;
+        p {
+          color: #000;
+          font-size: 15px;
+          margin: 0;
+          text-transform: capitalize;
+        }
+      }
+
+      .button__area {
+        height: 100%;
+        .button__wrapper {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 100%;
+
+          @mixin btn($bg, $color) {
+            margin: 0 8px;
+            button {
+              color: $color;
+              border: none;
+              outline: none;
+              padding: 6px 13px;
+              background-color: $bg;
+              border-radius: 2px;
+              &:hover {
+                background: $theme-color;
+                color: $white;
+              }
+            }
+          }
+
+          .edit__button {
+            @include btn(#df5c39, $white);
+          }
+
+          .delete__button {
+            @include btn($black, $white);
+          }
+        }
+      }
+    }
+  }
+}
