@@ -63,6 +63,10 @@
         height: 40px;
         width: 100%;
         padding: 0 15px;
+        text-transform: capitalize;
+      }
+      input[type="email"] {
+        text-transform: lowercase;
       }
     }
 

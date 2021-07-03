@@ -20775,6 +20775,10 @@ strong a {
   height: 40px;
   width: 100%;
   padding: 0 15px;
+  text-transform: capitalize;
+}
+.my__account__area .account_wrapper .billing__info input[type=email] {
+  text-transform: lowercase;
 }
 .my__account__area .account_wrapper .billing__button {
   display: flex;
