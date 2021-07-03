@@ -20713,6 +20713,10 @@ strong a {
   text-transform: uppercase;
   transition: all 0.3s ease 0s;
 }
+.login__register__area .login__register__wrapper .login__form_container form .login_button button:hover {
+  background: #a749ff;
+  color: #fff;
+}
 
 .my__account__area {
   padding-top: 50px;
