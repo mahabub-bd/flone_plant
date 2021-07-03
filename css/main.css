@@ -19657,7 +19657,7 @@ body {
 
 .nav-link {
   font-size: 0.93rem;
-  line-height: 16px;
+  line-height: 18px;
   color: #555252 !important;
   position: relative;
 }
@@ -19719,6 +19719,7 @@ strong a {
   background: #f6f6f6;
   box-shadow: 0 1px 7px -2px rgba(0, 0, 0, 0.3);
   border-radius: 4px;
+  top: 50px;
   padding-right: 0.8rem;
   padding-left: 0.8rem;
 }
@@ -19733,8 +19734,8 @@ strong a {
   visibility: hidden;
   opacity: 0;
   position: absolute;
-  width: 180px;
-  height: 325px;
+  width: 190px;
+  height: 350px;
   transform-origin: top;
   transform: scaleY(0);
   transition: all 0.5s ease 0s;
@@ -19742,8 +19743,9 @@ strong a {
   background: #f6f6f6;
   box-shadow: 0 1px 7px -2px rgba(0, 0, 0, 0.3);
   border-radius: 4px;
+  top: 50px;
   padding-right: 0rem;
-  padding-left: 1rem;
+  padding-left: 1.5rem;
 }
 
 .mega-menu {
@@ -19761,8 +19763,8 @@ strong a {
   opacity: 0;
   margin: 0 -20px;
   position: absolute;
-  width: 680px;
-  height: 540px;
+  width: 740px;
+  height: 580px;
   transform-origin: top;
   transform: scaleY(0);
   transition: all 0.5s ease 0s;
@@ -19770,6 +19772,7 @@ strong a {
   background: #f6f6f6;
   box-shadow: 0 1px 7px -2px rgba(0, 0, 0, 0.3);
   border-radius: 4px;
+  top: 50px;
   padding: 1rem;
 }
 .mega-menu:hover .mega-menu-item-1 {
@@ -19793,6 +19796,7 @@ strong a {
   background: #f6f6f6;
   box-shadow: 0 1px 7px -2px rgba(0, 0, 0, 0.3);
   border-radius: 4px;
+  top: 50px;
   padding: 2rem;
 }
 .mega-menu li {

@@ -10,7 +10,7 @@
 
 .nav-link {
   font-size: 0.93rem;
-  line-height: 16px;
+  line-height: 18px;
   color: #555252 !important;
   position: relative;
   .count-style {
@@ -64,6 +64,7 @@ strong a {
   background: #f6f6f6;
   box-shadow: 0 1px 7px -2px rgb(0 0 0/30%);
   border-radius: 4px;
+  top: 50px;
 }
 
 .dropdown {
@@ -90,9 +91,9 @@ strong a {
     background: #f6f6f6;
   }
   &-item-1 {
-    @include dropdown(180px, 325px);
+    @include dropdown(190px, 350px);
     padding-right: 0rem;
-    padding-left: 1rem;
+    padding-left: 1.5rem;
     
     
    
@@ -116,6 +117,7 @@ strong a {
   background: #f6f6f6;
   box-shadow: 0 1px 7px -2px rgb(0 0 0/30%);
   border-radius: 4px;
+  top: 50px;
 }
 
 .mega-menu {
@@ -128,7 +130,7 @@ strong a {
     transform: scaleY(1);
   }
   &-item {
-    @include megamenu(680px, 540px);
+    @include megamenu(740px, 580px);
     padding: 1rem;
   }
   &:hover &-item-1 {
