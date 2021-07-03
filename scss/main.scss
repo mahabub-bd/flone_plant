@@ -33,11 +33,13 @@ body {
 @import "subscribe";
 @import "footer";
 
-// Collection page SCSS File Import to main scss
+// Collection page SCSS File Import to Main SCSS
 @import "collection";
 
-// Login Register page SCSS File Import to main scss
-
+// Login Register page SCSS File Import to Main SCSS
 @import "login-register";
 
+// My Account Page SCSS File Import to Main SCSS
 @import "myaccount";
+// Contact Page SCSS File Import to Main SCSS
+@import "contact"

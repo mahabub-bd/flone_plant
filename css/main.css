@@ -20069,7 +20069,7 @@ strong a {
 .product__wrap .product__image .product__image__badges {
   position: absolute;
   top: 12px;
-  right: 12px;
+  left: 12px;
 }
 .product__wrap .product__image .product__image__badges span {
   font-size: 13px;
@@ -20721,7 +20721,6 @@ strong a {
 .my__account__area .accordion-item {
   margin-bottom: 20px;
   border: none;
-  box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
 }
 .my__account__area .accordion-item .accordion-button {
   font-size: 15px;
@@ -20730,13 +20729,19 @@ strong a {
   text-transform: uppercase;
   color: #242424;
   outline: none;
-  background: #ffffff;
+  background: #f7f7f7;
+}
+.my__account__area .accordion-item .accordion-button:focus {
+  outline: none;
+  box-shadow: none;
 }
 .my__account__area .accordion-item .accordion-button:hover {
   color: #a749ff;
 }
-.my__account__area .accordion-item .collapsed {
-  outline: none;
+.my__account__area .accordion-item .accordion-button::after {
+  width: 1rem;
+  height: 1rem;
+  background-size: 1rem;
 }
 .my__account__area .account_wrapper {
   flex: 1 1 auto;
@@ -20848,6 +20853,119 @@ strong a {
 .my__account__area .account_wrapper .entries__wrapper .button__area .button__wrapper .delete__button button:hover {
   background: #a749ff;
   color: #fff;
+}
+
+.contact__area {
+  padding: 100px 0;
+}
+.contact__area .contant__map {
+  margin-bottom: 10px;
+}
+.contact__area .contact__row {
+  margin-top: 20px;
+}
+.contact__area .contact__row .contact__info__wrap {
+  padding: 120px 70px 116px 90px;
+  background-color: #f3f3f3;
+}
+.contact__area .contact__row .contact__info__wrap .single__contact__info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.contact__area .contact__row .contact__info__wrap .single__contact__info .contact__icon {
+  margin-right: 40px;
+}
+.contact__area .contact__row .contact__info__wrap .single__contact__info .contact__icon i {
+  font-size: 1rem;
+  line-height: 40px;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  transition: all 0.3s ease 0s;
+  text-align: center;
+  color: #252525;
+  border: 1px solid #252525;
+  border-radius: 100%;
+}
+.contact__area .contact__row .contact__info__wrap .single__contact__info .contact__info_detail p {
+  line-height: 1;
+  margin: 0 0 9px;
+  color: #404040;
+}
+.contact__area .contact__row .contact__info__wrap .contact_social {
+  margin-top: 58px;
+}
+.contact__area .contact__row .contact__info__wrap .contact_social h3, .contact__area .contact__row .contact__info__wrap .contact_social .h3 {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1;
+  margin: 0 0 17px;
+  color: #4d4d4d;
+}
+.contact__area .contact__row .contact__info__wrap .contact_social ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.contact__area .contact__row .contact__info__wrap .contact_social ul li {
+  margin: 0 10px;
+  display: inline-block;
+}
+.contact__area .contact__row .contact__info__wrap .contact_social ul li a {
+  font-size: 1rem;
+  color: #4d4d4d;
+  cursor: pointer;
+}
+.contact__area .contact__row .contact__info__wrap .contact_social ul li a:hover {
+  color: #a749ff;
+}
+.contact__area .contact__row .contact__info__wrap .contact__form {
+  padding: 50px 110px;
+  background-color: #f3f3f3;
+}
+.contact__area .contact__row .contact__form {
+  padding: 60px 110px;
+  background-color: #f3f3f3;
+}
+.contact__area .contact__row .contact__form__title {
+  margin-bottom: 30px;
+}
+.contact__area .contact__row .contact__form__title h2, .contact__area .contact__row .contact__form__title .h2 {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1;
+  margin-bottom: 36px;
+  color: #464646;
+}
+.contact__area .contact__row .contact__form__style input,
+.contact__area .contact__row .contact__form__style textarea {
+  height: 40px;
+  margin-bottom: 30px;
+  padding: 2px 14px;
+  color: #000;
+  border: 1px solid #c1c1c1;
+  background: transparent;
+  width: 100%;
+}
+.contact__area .contact__row .contact__form__style textarea {
+  height: 175px;
+  margin-bottom: 0;
+  padding: 20px 14px;
+}
+.contact__area .contact__row .contact__form__style button {
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1;
+  margin-top: 58px;
+  padding: 15px 52px;
+  text-transform: uppercase;
+  color: #fff;
+  border: none;
+  background-color: #404040;
+}
+.contact__area .contact__row .contact__form__style button:hover {
+  background-color: #a749ff;
 }
 
 /*# sourceMappingURL=main.css.map */

@@ -1,0 +1,125 @@
+.contact__area {
+  padding: 100px 0;
+  .contant__map {
+    margin-bottom: 10px;
+  }
+
+  .contact__row {
+    margin-top: 20px;
+    .contact__info__wrap {
+      padding: 120px 70px 116px 90px;
+      background-color: #f3f3f3;
+      .single__contact__info {
+        display: flex;
+        align-items: center;
+        margin-bottom: 40px;
+        .contact__icon {
+          margin-right: 40px;
+          i {
+            font-size: 1rem;
+            line-height: 40px;
+            display: inline-block;
+            width: 40px;
+            height: 40px;
+            transition: all 0.3s ease 0s;
+            text-align: center;
+            color: #252525;
+            border: 1px solid #252525;
+            border-radius: 100%;
+          }
+        }
+
+        .contact__info_detail {
+          p {
+            line-height: 1;
+            margin: 0 0 9px;
+            color: #404040;
+          }
+        }
+      }
+      .contact_social {
+        margin-top: 58px;
+        h3 {
+          font-size: 24px;
+          font-weight: 500;
+          line-height: 1;
+          margin: 0 0 17px;
+          color: #4d4d4d;
+        }
+
+        ul {
+          margin: 0;
+          padding: 0;
+          list-style: none;
+          li {
+            margin: 0 10px;
+            display: inline-block;
+
+            a {
+              font-size: 1rem;
+              color: #4d4d4d;
+              cursor: pointer;
+              &:hover {
+                color: $theme-color;
+              }
+            }
+          }
+        }
+      }
+      .contact__form {
+        padding: 50px 110px;
+        background-color: #f3f3f3;
+      }
+    }
+    .contact__form {
+      padding: 60px 110px;
+      background-color: #f3f3f3;
+
+      &__title {
+        margin-bottom: 30px;
+        h2 {
+          font-size: 24px;
+          font-weight: 500;
+          line-height: 1;
+          margin-bottom: 36px;
+          color: #464646;
+        }
+      }
+      &__style {
+        input,
+        textarea {
+          height: 40px;
+          margin-bottom: 30px;
+          padding: 2px 14px;
+          color: #000;
+          border: 1px solid #c1c1c1;
+          background: transparent;
+          width: 100%;
+        }
+
+        textarea {
+          height: 175px;
+          margin-bottom: 0;
+          padding: 20px 14px;
+        }
+        button {
+          font-size: 1rem;
+          font-weight: 500;
+          line-height: 1;
+
+          margin-top: 58px;
+          padding: 15px 52px;
+
+          text-transform: uppercase;
+
+          color: #fff;
+          border: none;
+          background-color: #404040;
+          &:hover {
+            background-color: $theme-color;
+          }
+        }
+      }
+    }
+  }
+}
