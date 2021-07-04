@@ -20067,7 +20067,7 @@ strong a {
   visibility: hidden;
   opacity: 0;
   transition-duration: 0.7s;
-  transform: translate(-50%, 20px);
+  transform: translate(50%, 20px);
 }
 .product__wrap .product__image .product__image__badges {
   position: absolute;
@@ -20111,7 +20111,7 @@ strong a {
   height: 48px;
   background-color: #a749ff;
   transition: all 0.5s ease;
-  transform: translateY(20px);
+  transform: translateY(-20px);
   visibility: hidden;
   opacity: 0;
 }
