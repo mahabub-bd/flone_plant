@@ -19905,6 +19905,7 @@ strong a {
   height: 100%;
 }
 .carousel-content .slide__content {
+  transition: all 1s ease 0s;
   animation-name: slide-content;
   animation-duration: 1s;
   animation-delay: 1.3s;
@@ -19912,6 +19913,7 @@ strong a {
   animation-fill-mode: both;
 }
 .carousel-content .slide__image {
+  transition: all 1s ease 0s;
   animation-name: slide-content;
   animation-duration: 1s;
   animation-delay: 1.6s;
@@ -19926,10 +19928,7 @@ strong a {
     opacity: 0;
     transform: translateY(580px);
   }
-  60% {
-    transform: translateY(250px);
-  }
-  60% {
+  100% {
     transform: translateY(0);
   }
 }

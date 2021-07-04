@@ -82,7 +82,9 @@
   flex-basis: 400px;
   width: 100%;
   height: 100%;
+ 
   @mixin bottomTotop($duration, $delay) {
+    transition: all 1s ease 0s;
     animation-name: slide-content;
     animation-duration: $duration;
     animation-delay: $delay;
@@ -105,10 +107,9 @@
       opacity: 0;
       transform: translateY(580px);
     }
-    60% {
-      transform: translateY(250px);
-    }
-    60% {
+    
+    100% {
+      
       transform: translateY(0);
     }
   }
