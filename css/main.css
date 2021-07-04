@@ -19716,7 +19716,7 @@ strong a {
   transform: scaleY(0);
   transition: all 0.5s ease 0s;
   z-index: 100;
-  background: #f6f6f6;
+  background: #fff;
   box-shadow: 0 1px 7px -2px rgba(0, 0, 0, 0.3);
   border-radius: 4px;
   top: 50px;
@@ -19740,7 +19740,7 @@ strong a {
   transform: scaleY(0);
   transition: all 0.5s ease 0s;
   z-index: 100;
-  background: #f6f6f6;
+  background: #fff;
   box-shadow: 0 1px 7px -2px rgba(0, 0, 0, 0.3);
   border-radius: 4px;
   top: 50px;
@@ -19769,7 +19769,7 @@ strong a {
   transform: scaleY(0);
   transition: all 0.5s ease 0s;
   z-index: 100;
-  background: #f6f6f6;
+  background: #fff;
   box-shadow: 0 1px 7px -2px rgba(0, 0, 0, 0.3);
   border-radius: 4px;
   top: 50px;
@@ -19793,7 +19793,7 @@ strong a {
   transform: scaleY(0);
   transition: all 0.5s ease 0s;
   z-index: 100;
-  background: #f6f6f6;
+  background: #fff;
   box-shadow: 0 1px 7px -2px rgba(0, 0, 0, 0.3);
   border-radius: 4px;
   top: 50px;
@@ -19937,7 +19937,7 @@ strong a {
   position: relative;
   overflow: hidden;
   margin: 6rem 0;
-  border: 4px solid #fff;
+  border: 4px solid #f7f7f7;
 }
 .single__banner:hover a img {
   transform: scale(1.2);
@@ -20204,7 +20204,7 @@ strong a {
 
 .support__wrap {
   padding: 36px 10px 30px;
-  border: 4px solid #fff;
+  border: 4px solid #f6f6f6;
   margin: 60px auto;
 }
 .support__wrap .amimation {
